@@ -7,6 +7,6 @@ class PropertyValue
   end
 
   def inspect
-    "<PropertyValue amount: #{amount} type: #{type}>"
+    "<PropertyValue #{type} #{amount}>"
   end
 end

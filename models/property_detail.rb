@@ -18,6 +18,12 @@ class PropertyDetail
   end
 
   def inspect
-    "<PropertyDetail property_values: [#{property_values}]>"
+    "<PropertyDetail #{
+    if property_values.length > 0
+      "\n\t" + property_values.map(&:inspect).join("\n\t") + "\n\t"
+    else
+      '[]'
+    end
+    }>"
   end
 end

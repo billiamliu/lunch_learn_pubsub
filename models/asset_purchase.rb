@@ -3,7 +3,7 @@ class AssetPurchase
 
   def initialize(purchase_price: 0, funds_required: 0)
     @purchase_price = purchase_price
-    @funds_required = funds_required
+    @funds_required = funds_required # purchase_price - Σ(down_payments)
   end
 
   def inspect

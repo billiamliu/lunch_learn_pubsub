@@ -6,4 +6,13 @@ class Loan
     @amount = amount
     @cash_to_borrower = cash_to_borrower
   end
+
+  def inspect
+    <<-WAT
+CLASS: Loan
+    - use of loan fund: #{@use_of_loan_fund.inspect}
+    - amount: #{@amount}
+    - cash to borrower: #{@cash_to_borrower}
+    WAT
+  end
 end

@@ -7,10 +7,10 @@ class Asset
   end
 
   def inspect
-    <<-HEREDOC
-    CLASS: Asset
+    <<-WAT
+CLASS: Asset
     - property detail: #{property_detail.inspect}
     - asset purchase: #{asset_purchase.inspect}
-    HEREDOC
+    WAT
   end
 end
