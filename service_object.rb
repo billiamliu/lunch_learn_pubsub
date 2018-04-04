@@ -1,4 +1,8 @@
-require_relative 'models.rb'
+require_relative './so/asset'
+require_relative './so/property_detail'
+require_relative './so/property_value'
+require_relative './so/asset_purchase'
+require_relative './so/loan'
 
 class UpdatePurchasePrice
   def self.call(new_price, property_value:, asset_purchase:, loan:)

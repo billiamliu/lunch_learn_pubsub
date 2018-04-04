@@ -1,5 +1,0 @@
-require_relative './models/asset'
-require_relative './models/property_detail'
-require_relative './models/property_value'
-require_relative './models/asset_purchase'
-require_relative './models/loan'
