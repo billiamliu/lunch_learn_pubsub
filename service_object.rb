@@ -15,70 +15,6 @@ end
 
 # driver code below ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# driver code ---
-
 class ExampleOne
   attr_reader :asset, :asset_purchase, :loan
 
@@ -155,3 +91,4 @@ class ExampleOne
   end
 end
 
+ExampleOne.run
